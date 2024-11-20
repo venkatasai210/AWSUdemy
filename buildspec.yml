@@ -2,5 +2,5 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=daya -Dsonar.organization=daya -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=4e9924f045694c43141c76cf30af913c0f2fccca
+      - mvn verify sonar:sonar -Dsonar.projectKey=daya_javaproject11 -Dsonar.organization=daya -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=4e9924f045694c43141c76cf30af913c0f2fccca
     
